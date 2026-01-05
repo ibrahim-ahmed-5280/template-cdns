@@ -43,7 +43,7 @@ File: Main Css File
   --bs-danger: #fa5c7c;
   --bs-light: #eef2f7;
   --bs-dark: #313a46;
-  --bs-primary-rgb: 114, 124, 245;
+  --bs-primary-rgb: 30, 58, 138;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 10, 207, 151;
   --bs-info-rgb: 57, 175, 209;
@@ -2529,8 +2529,8 @@ textarea.form-control-lg {
     color: #6c757d; }
   .btn-check:focus + .btn, .btn:focus {
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.25);
-            box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.25); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25);
+            box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25); }
   .btn:disabled, .btn.disabled,
   fieldset:disabled .btn {
     pointer-events: none;
@@ -2784,8 +2784,8 @@ textarea.form-control-lg {
     background-color: #727cf5;
     border-color: #727cf5; }
   .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.5);
-            box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.5); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.5); }
   .btn-check:checked + .btn-outline-primary,
   .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
     color: #fff;
@@ -2793,8 +2793,8 @@ textarea.form-control-lg {
     border-color: #727cf5; }
     .btn-check:checked + .btn-outline-primary:focus,
     .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-      -webkit-box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.5);
-              box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.5); }
+      -webkit-box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.5);
+              box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.5); }
   .btn-outline-primary:disabled, .btn-outline-primary.disabled {
     color: #727cf5;
     background-color: transparent; }
@@ -4171,8 +4171,8 @@ textarea.form-control-lg {
     z-index: 3;
     border-color: #c8cbcf;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.25);
-            box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.25); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25);
+            box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25); }
 
 .accordion-header {
   margin-bottom: 0; }
@@ -4267,8 +4267,8 @@ textarea.form-control-lg {
     color: #6169d0;
     background-color: #eef2f7;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.25);
-            box-shadow: 0 0 0 0.2rem rgba(114, 124, 245, 0.25); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25);
+            box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25); }
 
 .page-item:not(:first-child) .page-link {
   margin-left: -1px; }
@@ -10884,8 +10884,8 @@ body[data-layout="topnav"] .container-fluid, body[data-layout="topnav"] .contain
   line-height: initial; }
 
 .btn-primary {
-  -webkit-box-shadow: 0px 2px 6px 0px rgba(114, 124, 245, 0.5);
-          box-shadow: 0px 2px 6px 0px rgba(114, 124, 245, 0.5); }
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(30, 58, 138, 0.5);
+          box-shadow: 0px 2px 6px 0px rgba(30, 58, 138, 0.5); }
 
 .btn-secondary {
   -webkit-box-shadow: 0px 2px 6px 0px rgba(108, 117, 125, 0.5);
@@ -10917,15 +10917,15 @@ body[data-layout="topnav"] .container-fluid, body[data-layout="topnav"] .contain
 
 .badge-primary-lighten {
   color: #727cf5;
-  background-color: rgba(114, 124, 245, 0.18); }
+  background-color: rgba(30, 58, 138, 0.18); }
   .badge-primary-lighten[href] {
     color: #727cf5;
     text-decoration: none;
-    background-color: rgba(114, 124, 245, 0.18); }
+    background-color: rgba(30, 58, 138, 0.18); }
   .badge-primary-lighten[href]:hover, .badge-primary-lighten[href]:focus {
     color: #727cf5;
     text-decoration: none;
-    background-color: rgba(114, 124, 245, 0.4); }
+    background-color: rgba(30, 58, 138, 0.4); }
 
 .badge-secondary-lighten {
   color: #6c757d;
@@ -11018,11 +11018,11 @@ body[data-layout="topnav"] .container-fluid, body[data-layout="topnav"] .contain
   .badge-outline-primary[href] {
     color: #727cf5;
     text-decoration: none;
-    background-color: rgba(114, 124, 245, 0.2); }
+    background-color: rgba(30, 58, 138, 0.2); }
   .badge-outline-primary[href]:hover, .badge-outline-primary[href]:focus {
     color: #727cf5;
     text-decoration: none;
-    background-color: rgba(114, 124, 245, 0.2); }
+    background-color: rgba(30, 58, 138, 0.2); }
 
 .badge-outline-secondary {
   color: #6c757d;
@@ -11913,7 +11913,7 @@ input[data-switch="dark"]:checked + label {
   font-size: 24px !important; }
 
 .bg-primary-lighten {
-  background-color: rgba(114, 124, 245, 0.25) !important; }
+  background-color: rgba(30, 58, 138, 0.25) !important; }
 
 .bg-secondary-lighten {
   background-color: rgba(108, 117, 125, 0.25) !important; }
@@ -11962,7 +11962,7 @@ input[data-switch="dark"]:checked + label {
 .widget-icon {
   color: #727cf5;
   font-size: 20px;
-  background-color: rgba(114, 124, 245, 0.25);
+  background-color: rgba(30, 58, 138, 0.25);
   height: 40px;
   width: 40px;
   text-align: center;
@@ -12173,7 +12173,7 @@ input[data-switch="dark"]:checked + label {
   .calendar-widget table .prev,
   .calendar-widget table .next {
     font-size: 1.1rem;
-    background-color: rgba(114, 124, 245, 0.1) !important;
+    background-color: rgba(30, 58, 138, 0.1) !important;
     border-radius: 0;
     color: #727cf5; }
 
@@ -12523,7 +12523,7 @@ body.auth-fluid-pages[data-leftbar-compact-mode=condensed] {
 
 .text-error {
   color: #727cf5;
-  text-shadow: rgba(114, 124, 245, 0.3) 5px 1px, rgba(114, 124, 245, 0.2) 10px 3px;
+  text-shadow: rgba(30, 58, 138, 0.3) 5px 1px, rgba(30, 58, 138, 0.2) 10px 3px;
   font-size: 5.25rem;
   line-height: 5.625rem; }
 
@@ -12531,7 +12531,7 @@ body.auth-fluid-pages[data-leftbar-compact-mode=condensed] {
   height: 30px;
   width: 30px;
   color: #727cf5;
-  background-color: rgba(114, 124, 245, 0.25);
+  background-color: rgba(30, 58, 138, 0.25);
   -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.12);
   text-align: center;
@@ -14729,7 +14729,7 @@ table.dataTable {
   table.dataTable tbody th.focus, table.dataTable tbody td.focus {
     outline: 2px solid #727cf5 !important;
     outline-offset: -1px;
-    background-color: rgba(114, 124, 245, 0.15); }
+    background-color: rgba(30, 58, 138, 0.15); }
 
 .dataTables_info {
   font-weight: 600; }
